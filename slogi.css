@@ -103,6 +103,7 @@ body {
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	align-items: flex-start;
+	margin: 0 auto;
 }
 #Clanek {
 	background-color: var(--bela);
@@ -153,6 +154,7 @@ h1 {
 	box-sizing: border-box;
 	height: 45px;
 	width: 950px;
+	margin: 0 auto;
 }
 #Noga a{
 	color: var(--bela);
@@ -161,3 +163,68 @@ h1 {
 #Noga a:hover {
 	text-decoration: underline;
 }
+/* Festivali.html */
+
+#Tabela {
+	width:400px;
+	border-collapse: collapse;
+	cursor: default;
+}
+#Tabela td, #Tabela th {
+	padding: 5px;
+	box-sizing: border-box;
+	border:#000 solid 1px;
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+}
+#Tabela th {
+	background-color:#CCC;
+}
+#Tabela tr:nth-child(even) td {
+	background-color:#F7F7F7;
+}
+#Tabela tr:hover td {
+	background-color:#EEE;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+a:link {
+	color: #6d3405;
+	text-decoration: none;
+	border-bottom: 1px solid rgba(109,52,5,1);
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+}
+a:visited {
+	color: #6d3405;
+	text-decoration: none;
+}
+a:hover {
+	color: #F93;
+	text-decoration: none;
+	border-bottom: 1px solid rgba(255,153,51,0);
+	-webkit-transition: all 0.75s ease;
+	transition: all 0.75s ease;
+}
+/* Galerija.html */
+.GalerijaSlik {
+	float:left;
+	margin: 8px;
+	-moz-box-shadow:2px 2px 3px 2px rgba(51,51,51, 0.75);
+	-webkit-box-shadow:2px 2px 3px 2px rgba(51,51,51, 0.75);
+	box-shadow:2px 2px 3px 2px rgba(51,51,51, 0.75);
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+}
+.GalerijaSlik:hover {
+	float:left;
+	margin: 8px;
+	-moz-box-shadow:2px 2px 5px 4px rgba(51,51,51, 0.75);
+	-webkit-box-shadow:2px 2px 5px 4px rgba(51,51,51, 0.75);
+	box-shadow:2px 2px 5px 4px rgba(51,51,51, 0.75);
+	-webkit-filter:contrast(150%);
+	filter:contrast(150%);
+	-webkit-transition: all 0.75s ease;
+	transition: all 0.75s ease;
+}
+	
